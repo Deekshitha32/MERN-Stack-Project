@@ -1,0 +1,72 @@
+/* Contactus.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .contactus-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .contactus-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+    margin: 1rem;
+  }
+  
+  .contactus-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contactus-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .contactus-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  
+  .contact-column {
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+  .contact-column h3 {
+    color: #007bff;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-column p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-icon {
+    color: #007bff;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,49 @@
+/* CartButton.css 
+
+.cart-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+*/
+/* CartButton.css */
+.cart-button {
+    position: relative;
+}
+
+.cart-modal {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none; /* Hide by default */
+}
+
+.cart-button .btn {
+    position: relative;
+    z-index: 1010;
+}
+
+.cart-button .btn:focus + .cart-modal,
+.cart-modal:hover {
+    display: block; /* Show modal on button focus or modal hover */
+}
+
+.cart-modal h4, .cart-modal h5 {
+    margin-bottom: 10px;
+}
+
+.cart-modal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-modal li {
+    margin-bottom: 10px;
+}
